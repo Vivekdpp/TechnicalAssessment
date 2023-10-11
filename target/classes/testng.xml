@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Resolver Assessment">
+
+	
+  <test name="Resolver Testcases">
+    <classes>
+      <class name="testcases.Test1"/>
+      <class name="testcases.Test2"/>
+      <class name="testcases.Test3"/>
+      <class name="testcases.Test4"/>
+      <class name="testcases.Test5"/>
+      <class name="testcases.Test6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

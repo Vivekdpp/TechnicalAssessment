@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Resolver Assessment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Resolver Testcases(failed)">
+    <classes>
+      <class name="testcases.Test5">
+        <methods>
+          <include name="setUp"/>
+          <include name="test5_WaitForButtonAndVerify"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Test5 -->
+    </classes>
+  </test> <!-- Resolver Testcases(failed) -->
+</suite> <!-- Failed suite [Resolver Assessment] -->
