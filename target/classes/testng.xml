@@ -2,7 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite parallel="false" name="Resolver Assessment">
 
-	
+	<listeners>
+		<listener class-name="ExtentReport.ExtentReportListener" />
+</listeners>
+
   <test name="Resolver Testcases">
     <classes>
       <class name="testcases.Test1"/>

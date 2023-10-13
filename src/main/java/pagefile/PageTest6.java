@@ -28,7 +28,6 @@ public class PageTest6 extends TestBase{
 	    WebElement cell = grid.findElement(By.xpath(".//tr[" + (row + 1) + "]/td[" + (col + 1) + "]"));
 	    return cell.getText();
 	}
-
 	
 	
 }
